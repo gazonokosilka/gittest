@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"gitprc/feature"
+)
 
 func main() {
 
 	for i := 0; i < 5; i++ {
-		fmt.Println("Hi")
+		feature.DaetSalam()
 	}
 }
